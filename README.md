@@ -36,6 +36,12 @@ Linux:
 ```bash
 docker run -v /home/yourname:/home/catmandu/Home -it librecat/catmandu
 ```
+
+Start docker as root:
+```bash
+docker run -u 0
+```
+
 # NAME
 
 Catmandu::Introduction - a Catmandu HOW TO
